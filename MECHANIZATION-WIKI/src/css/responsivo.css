@@ -1,0 +1,29 @@
+@media (max-width: 568px) {
+    body{width: 100%}
+    header{ height: 125px; gap: 0; }
+    header .logo img{width: 90px; margin-left: 10;}
+    nav{margin-right: 286px; font-size: 10px; position: absolute; width: 280px}
+    nav ul{width: 200; gap: 15px;}
+    main{ margin-left: 0; line-height: normal; word-spacing: normal;}
+    aside{ margin-left: 65%; margin-top: 200px; width: 100px;}
+    aside .titulo-aside{ font-size: 13px; width: 60px;}
+    aside .sessao-aside{ width: 100px;}
+    article{ font-size: 10px; line-height: normal;}
+  section{ width: 230px; font-size: 10px; margin-right: 100px;}
+  section .titulo-topico{ width: 50%;}
+  section .lista-personagens img{ width: 80px;}
+}
+
+/* @media (width:800px) {
+    header{ height: 225px; gap: 0;}
+    header .logo img{width: 140px; margin-left: 0;}
+    nav{margin-left: 400px; font-size: 14px; position: absolute; width: 280px}
+    nav ul{width: 200; gap: 17px;}
+    main{ margin-left: 0; line-height: 5px; word-spacing: 2;}
+    aside{ margin-left: 65%; margin-top: 300px; width: 100px;}
+    aside .titulo-aside{ font-size: 13px; width: 60px; margin-left: 67px;}
+    aside .sessao-aside{ width: 200px;}
+    article{ font-size: 10px; line-height: normal;}
+  section{ width: 330px; font-size: 15px; margin-right: 100px;}
+  section .titulo-topico{ margin-left: 0px;}
+  section .lista-personagens img{ width: 85px;} */

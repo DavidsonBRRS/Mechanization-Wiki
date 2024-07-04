@@ -1,0 +1,189 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oxanium';
+
+    color: rgb(78, 77, 77);
+    width: 80%;
+}
+
+header {
+    width: 1300px;
+    height: 300px;
+    font-size: 30px;
+    display: flex;
+    padding: auto;
+    gap: 200px;
+    background-color: blueviolet;
+}
+
+header img{
+    width: 170px;
+    margin-left: 110px;
+}
+
+
+header .container-nav{
+    display: flex;
+    justify-content: center;
+    margin-left: 71px;
+}
+
+
+nav ul .home-link:hover,
+nav ul .personagens-link:hover,
+nav ul .mundos-link:hover,
+nav ul .raca-link:hover{
+    cursor: pointer;
+    color:aqua;
+}
+
+nav ul .home-link,
+nav ul .personagens-link,
+nav ul .mundos-link,
+nav ul .raca-link{
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    font-size: 20px;
+    margin-top: 50px;
+    height: 70px;
+    width: 600px;
+    margin-left: 150px;
+    
+}
+
+nav ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.aside {
+    padding: auto;
+    position: absolute;
+    margin-left: 955px;
+    margin-top: 600px;
+    width: 282px;
+    height: auto;  
+    display: flex;
+    
+   
+}
+
+.aside .titulo-aside{
+    margin-left: 19px;
+    font-size: 25px;
+
+}
+
+.aside .sessao-aside{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+.imagem-personagem img{
+    width: 220px;
+   image-rendering: auto;
+
+}
+
+.imagem-personagen img{
+    width: 180px;
+}
+
+.imagem-personagemm img{
+    width: 150px;
+}
+
+.aside .titulo-aside{
+    margin-right: 70px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.aside-control {
+    background-color: rgb(37, 37, 65);
+    width: 6%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 1px;
+   
+    
+}
+.aside-control .aside-itens{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+
+.aside-control .aside-itens img{
+    width: 95%;
+    display: flex;
+    border: solid 1px;
+    padding: 5%;
+    border-color: rgb(37, 37, 65);
+    border-radius: 10px;
+}
+
+.aside-control .home-aside:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 900px;
+    padding: auto;
+    word-spacing: 1px;
+    line-height: 30px;
+    
+}
+
+section .titulo-topico {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+section .ficha-personagem{
+
+}
+
+article {
+    display: flex;
+    margin: 20px;
+    height: auto;
+    width: auto;
+    font-size: 15px;
+    padding: auto;
+}
+
+
+footer {
+    background-color: blueviolet;
+    height: 300px;
+    width: 1300px;
+    display: flex;
+    font-size: 30px;
+    margin-top: 60px;
+}
